@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imaging", "Imaging\Imaging.csproj", "{556E30A9-98AD-468C-9F1A-D430D16ACF15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharp", "ImageSharp\ImageSharp.csproj", "{D827171E-4FF9-4641-9280-B77658CC53B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharp", "ImageSharp\ImageSharp.csproj", "{D827171E-4FF9-4641-9280-B77658CC53B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recognition", "Recognition\Recognition.csproj", "{DA4EE9BE-68B9-4E24-8C82-5BE0AB7608D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D827171E-4FF9-4641-9280-B77658CC53B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D827171E-4FF9-4641-9280-B77658CC53B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D827171E-4FF9-4641-9280-B77658CC53B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4EE9BE-68B9-4E24-8C82-5BE0AB7608D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4EE9BE-68B9-4E24-8C82-5BE0AB7608D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4EE9BE-68B9-4E24-8C82-5BE0AB7608D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4EE9BE-68B9-4E24-8C82-5BE0AB7608D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

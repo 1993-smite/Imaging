@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="IronSoftware.System.Drawing" Version="2022.11.10457" />
     <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
   </ItemGroup>
 
   <ItemGroup>
