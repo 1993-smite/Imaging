@@ -35,7 +35,12 @@ namespace WebImages.Controllers
         {
             using var img = new FileStream(Consts.ImageDefault, FileMode.Open);
             var options = new TextImageOptions();
-            options.SetFont(SystemFonts.CreateFont(Consts.Font, Consts.FontSize, FontStyle.Regular));
+
+            FontCollection collection = new();
+            FontFamily family = collection.Add("Font/arial.ttf");
+            Font font = family.CreateFont(Consts.FontSize, FontStyle.Regular);
+
+            options.SetFont(font);
             options.SetColor(Color.Black);
             options.SetStartPoint(new PointF(500, 500));
             var result = await _mediator.Send(new DrawTextRequest()
